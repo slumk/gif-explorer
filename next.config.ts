@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   basePath: isProd ? '/gif-explorer' : undefined,
-  assetPrefix: isProd ? '/gif-explorer/' : undefined,
 };
 
 export default nextConfig;
